@@ -1,8 +1,12 @@
 const express = require("express");
-
+const routes = require("./routes")
 const app = express();
 
 app.use(express.json());
+app.use(routes)
+app.listen(3333)
+
+
 /**
 * Métodos HTTP:
 *
@@ -20,15 +24,15 @@ app.use(express.json());
 * Request Body: Corpo da requisição, utilizado para criara ou alterar recursos.
 */
 
-app.post("/users",(request,response)=>{
-    const params = request.body
-  
-    console.log(params)
-  
-    return response.json({
-        evento:"Semana OminiStack 11.0",
-        aluno: "Memel Lima"
-    })
-})
 
-app.listen(3333)
+/**
+ * SQL: MySQL, SQLite, PostfreeSQL, Oracle, Microsoft SQL Server.
+ * NoSQL: MongoDB, CouchDB, etc.
+*/
+
+/**
+ * Driver: SELECT *FROM users
+ * Query Builder: table('user').select('*').where()
+*/
+
+
