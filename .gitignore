@@ -67,5 +67,6 @@ node_modules/
 =======
 # Julio Lima Ignores
 backend/node_modules/
+frontend/node_modules/
 
 # Group Ignores
