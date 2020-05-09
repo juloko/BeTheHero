@@ -13,6 +13,8 @@
     "workbench.colorTheme": "Dracula",
     "workbench.iconTheme": "material-icon-theme",
     "sqltools.useNodeRuntime": true,
+    "emmet.syntaxProfiles": {"javascript": "jsx"},
+    "emmet.includeLanguages": {"javascript": "javascriptreact"},
     "sqltools.connections": [
         {
             "database": "${workspaceFolder}\\backend/src/database/db.sqlite",

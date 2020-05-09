@@ -1,0 +1,1 @@
+START > RUN pm2 start index.js --watch
